@@ -1,0 +1,24 @@
+{
+  "name": "brcodepix",
+  "version": "0.0.1",
+  "description": "Tool to generate PIX BRCode string",
+  "main": "index.js",
+  "author": "Weslley Almeida",
+  "devDependencies": {
+    "@swc/core": "^1.2.179",
+    "@swc/jest": "^0.2.21",
+    "@types/jest": "^27.5.0",
+    "@types/validator": "^13.7.2",
+    "jest": "^28.1.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "crc": "^4.1.1",
+    "validator": "^13.7.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  }
+}
